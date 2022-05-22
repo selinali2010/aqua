@@ -1,4 +1,4 @@
-package com.appdemoscratch.newarchitecture;
+package com.aqua.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.appdemoscratch.BuildConfig;
-import com.appdemoscratch.newarchitecture.components.MainComponentsRegistry;
-import com.appdemoscratch.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.aqua.BuildConfig;
+import com.aqua.newarchitecture.components.MainComponentsRegistry;
+import com.aqua.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

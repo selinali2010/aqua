@@ -1,6 +1,6 @@
 using Microsoft.ReactNative;
 
-namespace appDemoScratch
+namespace aqua
 {
     public partial class ReactPackageProvider : IReactPackageProvider
     {

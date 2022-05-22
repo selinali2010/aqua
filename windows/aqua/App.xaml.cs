@@ -8,7 +8,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 #endif
 
-namespace appDemoScratch
+namespace aqua
 {
     sealed partial class App : ReactApplication
     {

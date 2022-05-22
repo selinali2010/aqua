@@ -18,8 +18,8 @@
     <ProjectGuid>{0A870844-DC21-4777-8D3E-C04C074D99DD}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>appDemoScratch</RootNamespace>
-    <AssemblyName>appDemoScratch</AssemblyName>
+    <RootNamespace>aqua</RootNamespace>
+    <AssemblyName>aqua</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
