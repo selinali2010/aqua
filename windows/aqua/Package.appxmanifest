@@ -9,7 +9,7 @@
   <Identity
     Name="04628df9-e01a-480e-89f8-2615142d61f8"
     Publisher="CN=JATY"
-    Version="1.0.2.0" />
+    Version="1.0.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="04628df9-e01a-480e-89f8-2615142d61f8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
