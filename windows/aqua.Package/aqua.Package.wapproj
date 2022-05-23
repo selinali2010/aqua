@@ -78,5 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\aqua\aqua.csproj" />
+    <ProjectReference Include="..\RegistryApp\RegistryApp.csproj" />
   </ItemGroup>
 </Project>

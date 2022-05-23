@@ -11,9 +11,9 @@ using Windows.ApplicationModel.AppService;
 using Windows.Foundation.Collections;
 using Windows.UI;
 
-namespace ReactNativeAppServiceModule
+namespace AquaNativeModule
 {
-    [ReactModule("ReactNativeAppServiceModule")]
+    [ReactModule("AquaNativeModule")]
     internal sealed class ReactNativeModule
     {
 

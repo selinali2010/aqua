@@ -4,16 +4,17 @@
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap rescap">
+  xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10"
+  IgnorableNamespaces="uap rescap desktop">
 
   <Identity
     Name="b4fe046f-241e-4f88-9942-9ec7e30bc258"
-    Publisher="CN=Selina"
+    Publisher="CN=JATY"
     Version="1.0.0.0" />
 
   <Properties>
     <DisplayName>aqua.Package</DisplayName>
-    <PublisherDisplayName>Selina</PublisherDisplayName>
+    <PublisherDisplayName>JATY</PublisherDisplayName>
     <Logo>Images\StoreLogo.png</Logo>
   </Properties>
 
@@ -39,6 +40,12 @@
         <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Images\SplashScreen.png" />
       </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="RegistryService"/>
+        </uap:Extension>
+		<desktop:Extension Category="windows.fullTrustProcess" Executable="RegistryApp\RegistryApp.exe" />
+      </Extensions>
     </Application>
   </Applications>
 

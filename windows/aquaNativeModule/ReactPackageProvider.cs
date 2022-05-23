@@ -1,6 +1,6 @@
 using Microsoft.ReactNative;
 
-namespace ReactNativeAppServiceModule
+namespace AquaNativeModule
 {
     public partial class ReactPackageProvider : IReactPackageProvider
     {
