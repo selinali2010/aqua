@@ -162,6 +162,12 @@
   <ItemGroup>
     <None Include="cert.pfx" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\aquaNativeModule\aquaNativeModule.csproj">
+      <Project>{21084e77-e1d6-4d36-8fa3-bbda06102cf8}</Project>
+      <Name>aquaNativeModule</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ImportGroup Label="ReactNativeWindowsTargets">
     <Import Project="$(ReactNativeWindowsDir)\PropertySheets\External\Microsoft.ReactNative.Uwp.CSharpApp.targets" Condition="Exists('$(ReactNativeWindowsDir)\PropertySheets\External\Microsoft.ReactNative.Uwp.CSharpApp.targets')" />
   </ImportGroup>
