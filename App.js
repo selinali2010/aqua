@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -16,6 +16,9 @@ import {
   Text,
   useColorScheme,
   View,
+  NativeModules,
+  Button, 
+  TextInput
 } from 'react-native';
 
 import {
@@ -59,6 +62,21 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
+  useEffect(() => {
+    async function launchProcess() {
+      await NativeModules.AquaNativeModule.launchFullTrustProcess();
+    }
+    launchProcess();
+  }, []);
+
+  const[registryKeyName, setRegistryKeyName] = useState('');
+  const[registryKeyValue, setRegistryKeyValue] = useState('');
+
+  const getRegistryKey = async() => {
+    var result = await NativeModules.AquaNativeModule.getRegistryKey(registryKeyName);
+    setRegistryKeyValue(result);
+  }
+
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
@@ -73,6 +91,9 @@ const App: () => Node = () => {
           <Section title="Team JATY">
             We making progress! Woohoo :D
           </Section>
+          <TextInput onChangeText={text => setRegistryKeyName(text)} />
+          <Button title="Get registry key" onPress={getRegistryKey} />
+          <Text>{registryKeyValue}</Text>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.

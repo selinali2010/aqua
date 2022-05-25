@@ -36,9 +36,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.ReactNative.Manag
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "aqua.Package", "aqua.Package\aqua.Package.wapproj", "{5E1B9D1C-E0B7-42F5-B71D-3C393602A796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryApp", "RegistryApp\RegistryApp.csproj", "{3770F113-A813-45F9-B907-327E43A2D03F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegistryApp", "RegistryApp\RegistryApp.csproj", "{3770F113-A813-45F9-B907-327E43A2D03F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aquaNativeModule", "aquaNativeModule\aquaNativeModule.csproj", "{21084E77-E1D6-4D36-8FA3-BBDA06102CF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AquaNativeModule", "aquaNativeModule\AquaNativeModule.csproj", "{21084E77-E1D6-4D36-8FA3-BBDA06102CF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

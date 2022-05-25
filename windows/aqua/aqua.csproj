@@ -161,11 +161,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cert.pfx" />
+    <None Include="packages.lock.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\aquaNativeModule\aquaNativeModule.csproj">
+    <ProjectReference Include="..\AquaNativeModule\AquaNativeModule.csproj">
       <Project>{21084e77-e1d6-4d36-8fa3-bbda06102cf8}</Project>
-      <Name>aquaNativeModule</Name>
+      <Name>AquaNativeModule</Name>
     </ProjectReference>
   </ItemGroup>
   <ImportGroup Label="ReactNativeWindowsTargets">
